@@ -1,0 +1,26 @@
+{
+  "server_name": "ELIAS EMPRESAS",
+  "max_players": 10000,
+  "server_port": 55555,
+  "motd": "Olá, Bem-vindo ao Servidor Elias Empresas",
+  "backup_schedule": "15:55",
+  "backup_location": "/backups",
+  "logging": {
+    "enabled": true,
+    "log_directory": "/logs",
+    "log_level": "INFO"
+  },
+  "security": {
+    "allowlist_enabled": false,
+    "banlist_enabled": true,
+    "max_ping": 1000
+  },
+  "worlds": {
+    "default_world": "world",
+    "worlds_directory": "/worlds"
+  },
+  "network": {
+    "ipv6_enabled": true,
+    "port_forwarding_enabled": true
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "max-players": 100000,
+  "server-port": 55555,
+  "level-name": "world"
+}
