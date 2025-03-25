@@ -1,0 +1,35 @@
+/servidor-eliasempresas/
+│
+├── /bedrock/
+│   ├── server.properties
+│   ├── bedrock_server.exe (ou versão compatível para o sistema operacional)
+│   └── /worlds/
+│       ├── world1/
+│       └── world2/
+│
+├── /java/
+│   ├── server.properties
+│   ├── minecraft_server.jar
+│   └── /worlds/
+│       ├── world1/
+│       └── world2/
+│
+├── /config/
+│   ├── bedrock_config.json
+│   ├── java_config.json
+│   └── global_config.json
+│
+├── /logs/
+│   └── logs de execução dos dois servidores
+│
+├── /plugins/  
+│   └── /bedrock/
+│   └── /java/
+│
+├── /scripts/
+│   ├── start_bedrock.sh
+│   ├── start_java.sh
+│   └── start_all.sh
+│
+└── /web/  
+    └── index.html
